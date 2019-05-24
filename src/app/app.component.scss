@@ -1,0 +1,32 @@
+* {
+  transition: 0.5s;
+}
+
+.container.main {
+  background: #fff;
+  box-shadow: 0 0 8px #ccc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 32px;
+}
+
+nav li {
+  margin-right: 35px;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+nav li span.badge {
+  border-radius: 100%;
+  line-height: 32px;
+  height: 38px;
+  width: 38px;
+  position: absolute;
+  top: 10px;
+}

@@ -1,0 +1,18 @@
+<nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-white"><img src="../assets/img/fbc-logo-white.png" /></a><!--FireBootCamp CRM-->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" [routerLinkActive]="'active'">
+        <a class="nav-link" [routerLink]="['/company/list']">
+          <span class="link">Companies</span>
+          <span class="badge badge-info">({{companiesCount$ | async}})</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+ <div class="container main">
+  <router-outlet></router-outlet>
+ </div>
+

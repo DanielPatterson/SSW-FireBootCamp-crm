@@ -1,0 +1,43 @@
+:hover {
+  transition: 1s;
+}
+
+table {
+
+  margin-top: 20px;
+
+  .company-buttons {
+    text-align: right;
+    width: 180px;
+
+    span {
+    display: inline-block;
+    margin-bottom: 5px;
+    }
+  }
+
+  .btn {
+    margin-left: 10px;
+    margin-bottom: 4px;
+    text-align: right;
+    width: 180px;
+  }
+
+}
+
+// .btn-warning {
+//   background-color: #fae07a;
+//   border-color: #fae07a;
+// }
+// .btn-warning:hover {
+//   background-color: #f7dc6f;
+//   border-color: #f7dc6f;
+// }
+// .btn-danger {
+//   background-color: #e74c3c;
+//   border-color: #e74c3c;
+// }
+// .btn-danger:hover {
+//   background-color: #b03a2e;
+//   border-color: #b03a2e;
+// }
